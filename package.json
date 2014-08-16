@@ -3,18 +3,30 @@
   "version": "0.3.0",
   "description": "JSON2HTML form builder. Made in Acid Labs with plenty of Love.",
   "author": {
-    "name": ["Ricardo Andrés Bello", "Vladimir Suarez"],
-    "email": ["ricardoaandres@me.com", "vladimir@acid.cl"],
-    "url": ["https://github.com/ricardoaandres", "https://github.com/ls-vla"]
+    "name": [
+      "Ricardo Andrés Bello",
+      "Vladimir Suarez"
+    ],
+    "email": [
+      "ricardoaandres@me.com",
+      "vladimir@acid.cl"
+    ],
+    "url": [
+      "https://github.com/ricardoaandres",
+      "https://github.com/ls-vla"
+    ]
   },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ls-vla/formable/issues",
-    "email": ["ricardoaandres@me.com", "vladimir@acid.cl"]
+    "email": [
+      "ricardoaandres@me.com",
+      "vladimir@acid.cl"
+    ]
   },
   "devDependencies": {
-    "grunt": "^0.4.2",
+    "grunt": "^0.4.5",
     "grunt-http-server": "0.0.4",
-    "grunt-contrib-jasmine": "^0.6.1"
+    "grunt-contrib-jasmine": "^0.7.0"
   }
 }
