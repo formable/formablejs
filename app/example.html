@@ -6,7 +6,7 @@
 <body>
 	<div id='output'></div>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src='js/formable.js'></script>
+	<script src='../src/formable.js'></script>
 	<script>
 		var json = {
 			'form': {
@@ -91,7 +91,7 @@
 			}
 		};
 
-		var form = new Formable(json, 'output');
+		var form = new Formable(json, '#output');
 	</script>
 </body>
 </html>

@@ -85,7 +85,7 @@ describe("Formable", function() {
 
   // Form Data Tests
   describe("Generated form", function() {
-    var $form = new Formable(formJSON, 'output');
+    var $form = new Formable(formJSON, '#output');
 
     it("has a id named 'id' ", function() {
       expect($($form).attr('id')).toEqual('register-vehicle-form');
