@@ -1,6 +1,6 @@
 # formable.js
 
-Formable is a JSON2HTML form builder. It relies on jQuery to provide an easy way to work with dynamic forms. The next major version will be jQuery-Independent.
+Formable is a JSON2HTML form builder which provides an easy way to work with dynamic forms.
 
 ## basics
 Formable accepts two parameters:
@@ -8,7 +8,7 @@ Formable accepts two parameters:
 + json: REQUIRED.
 + output: OPTIONAL.
 
-If no output is provided Formable will return the form object, otherwise, will search for the element matching the output selector.
+If no output is provided Formable will return the form object (DOM Fragment), otherwise, will search for the element matching the output selector.
 
 ## supported form fields
 
@@ -78,8 +78,6 @@ textarea |          | `label`, `name`, `id`, `class`, `rows`, `value`
 ```
 
 ## usage
-###### import jQuery
-`<script src='http://code.jquery.com/jquery-1.11.0.min.js'></script>`
 
 ###### import formable
 `<script src='js/formable.js'></script>`
@@ -88,7 +86,7 @@ textarea |          | `label`, `name`, `id`, `class`, `rows`, `value`
 `var formJSON = {}`
 
 ###### make some magic
-`var form = new Formable(formJSON, 'output');`
+`var form = new Formable(formJSON, '#output');`
 
 ## Contributing
 To contribute to Formable we advice you to:
